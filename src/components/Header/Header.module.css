@@ -1,0 +1,59 @@
+.header {
+    grid-area: h;
+    background-color: #A099B4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 100%;
+    margin-left: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 50px;
+}
+
+.logo p {
+    margin-left: 15px;
+    color: #2B2B2B;
+}
+
+.loginBlock {
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+
+.header .btnLogout,
+.header .btnLogin {
+    transition: 500ms ease-out;
+    color: #ffffff;
+    background-color: #696969;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.header .btnLogout:hover {
+    background-color: #ff4040;
+    box-shadow: 0 0 5px rgb(255, 64, 64);
+    transition: 500ms ease-in;
+    color: #2B2B2B;
+}
+
+.header .btnLogin:hover {
+    background-color: #89ff40;
+    box-shadow: 0 0 5px rgb(137, 255, 64);
+    color: #2B2B2B;
+    transition: 500ms ease-in;
+    /*text-shadow: 4px 1px 10px rgb(83 255 64);*/
+}
